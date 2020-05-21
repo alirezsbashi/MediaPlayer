@@ -3,5 +3,5 @@
 <h2 style="font-size20px" dir="rtl">
 پخش موسیقی در اندروید با کاتلین
 </h2>
-<img src"gif001.gif" alt="" title="">
-<img src"scr001.png" alt="" title="">
+<img src"git001.gif" alt="Test MediaPlayer in Android Kotlin" title="MediaPlayer">
+<img src"scr001.png" alt="Test MediaPlayer in Android Kotlin" title="MediaPlayer">
