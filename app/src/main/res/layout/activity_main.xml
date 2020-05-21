@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:textDirection="ltr"
+    android:layoutDirection="ltr"
+    android:background="#2a2a2a">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music"
+        android:layout_weight="0.7"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textDirection="ltr"
+        android:layoutDirection="ltr">
+
+        <Button
+            android:id="@+id/btn_main_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/style_nex"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn_main_play"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/style_play"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/btn_main_nex"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/style_forward"
+            android:layout_margin="4dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
